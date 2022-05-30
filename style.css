@@ -4,33 +4,42 @@
     color: #333;
     font-family: lato, sans-serif;
 }
+
 .description {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .description-img {
     width: 100%;
 }
+
 .description-link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.description { text-align: center;
+
+    .description { 
+        text-align: center;
+    }
+
 }
-}
+
 .workspace {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
 .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
+
 .add-tasks {
     display: flex;
 }
@@ -51,7 +60,6 @@ button {
     cursor: pointer;
 }
 /* --------------------  */
-
 .button{
     color: #888;
     font-size: 15px;
@@ -73,6 +81,7 @@ button {
     margin: 0;
     text-transform: uppercase;
 }
+
 .li-task {
     margin: 0;
     font-size: 18px;
@@ -85,58 +94,58 @@ button {
     font-family: lato, sans-serif;
     color: #888;
 }
+
 .li-task:focus {
     color: #333;
 }
-
 /* New Task */
 .add-label {
     display: block;
     margin: 0 0 20px;
 }
+
 #new-task {
     width: 318px;
 }
-
 /* Task list */
 .li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 .li .checkbox {
     margin: 0 10px;
 }
+
 .li .label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .li .text1 {
     width: 226px
 }
+
 .delete-img {
     height: 2em;
     transform: rotatez(45deg);
     transition: transform 200ms ease-in;
 }
+
 .delete-img:hover {
     transform: rotatez(0);
 }
-
 /* Completed */
 .incomplete-label {
     text-decoration: line-through
-    color: #888;
+    color: #333;
 }
-
 /* Edit Task */
 .li-task {
     display:none
