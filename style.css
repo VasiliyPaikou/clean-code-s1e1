@@ -12,11 +12,11 @@
     text-align: right;
 }
 
-.description-img {
+.description__img {
     width: 100%;
 }
 
-.description-link {
+.description__link {
     font-family: fantasy, cursive;
 }
 
@@ -34,6 +34,7 @@
     margin: 0 auto 0;
 }
 
+.add-tasks__task,
 .task {
     width: 56%;
     display: inline-block;
@@ -76,8 +77,7 @@ button {
     color: #3a3a3a;
 }
 /* Heading */
-.title,
-.add-label {
+.section-title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -104,7 +104,7 @@ button {
     color: #333;
 }
 /* New Task */
-.add-label {
+.section-title {
     display: block;
     margin: 0 0 20px;
 }
