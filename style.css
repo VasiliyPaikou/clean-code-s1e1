@@ -37,7 +37,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .add-tasks {
@@ -132,7 +132,7 @@ button {
 }
 
 .li .text1 {
-    width: 226px
+    width: 226px;
 }
 
 .delete-img {
@@ -146,12 +146,12 @@ button {
 }
 /* Completed */
 .incomplete-label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #333;
 }
 /* Edit Task */
 .li-task {
-    display: none
+    display: none;
 }
 
 .edit-mode .li-task {
