@@ -122,21 +122,18 @@ button {
     align-items: center;
 }
 
-.li,
-.checkbox {
+.li .checkbox {
     margin: 0 10px;
 }
 
-.li,
-.label {
+.li .label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
 
-.li,
-.text1 {
+.li .text1 {
     width: 226px;
 }
 
@@ -151,7 +148,6 @@ button {
 }
 /* Completed */
 .incomplete-label {
-    text-decoration: line-through;
     color: #333;
 }
 /* Edit Task */
@@ -159,13 +155,11 @@ button {
     display: none;
 }
 
-.edit-mode,
-.li-task {
+.edit-mode .li-task {
     display: inline-block;
     width: 224px
 }
 
-.edit-mode,
-.label {
+.edit-mode .label {
     display: none;
 }
