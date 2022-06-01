@@ -148,6 +148,7 @@ button {
 }
 /* Completed */
 .incomplete-label {
+    text-decoration: line-through;
     color: #333;
 }
 /* Edit Task */
