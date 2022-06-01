@@ -147,10 +147,11 @@ button {
   transform: rotatez(0);
 }
 /* Completed */
-.incomplete-label {
+#completed-tasks .complete {
   text-decoration: line-through;
   color: #333;
 }
+
 /* Edit Task */
 .li-task {
   display: none;
