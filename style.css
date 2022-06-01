@@ -149,7 +149,7 @@ button {
 /* Completed */
 #completed-tasks .complete {
   text-decoration: line-through;
-  color: #333;
+  color: #888;
 }
 
 /* Edit Task */
